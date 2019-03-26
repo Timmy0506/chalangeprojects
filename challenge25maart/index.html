@@ -15,14 +15,14 @@
         font-family: Calibri;
     }
 
-    #vmbo{
+    .vmbo{
         height:60px;
         background-color: teal;
         border:1px solid teal;
         color: white;
         text-align: center;
     }
-    #vmbo1{
+    .vmbo1{
         height: 60px;
         border:1px solid teal;
         background-color: teal;
@@ -30,7 +30,7 @@
         text-align: center;
     }
 
-    #vmbo2{
+    .vmbo2{
         height: 60px;
         border: 1px solid blue;
         background-color: blue;
@@ -38,7 +38,7 @@
         text-align: center;
     }
 
-    #havo1{
+    .havo1{
         height: 60px;
         border: 1px solid mediumpurple;
         background-color: mediumpurple;
@@ -46,7 +46,7 @@
         text-align: center;
     }
 
-    #havo2{
+    .havo2{
         height: 60px;
         border: 1px solid purple;
         background-color: purple;
@@ -54,7 +54,7 @@
         text-align: center;
     }
 
-    #atheneum1{
+    .atheneum1{
         height: 60px;
         border: 1px solid purple;
         background-color: purple;
@@ -64,7 +64,7 @@
 
     /*ik ben me bewust dat dit allemaal makelijker had gekunt maar wat is daar de lol van*/
 
-    #vwo1{
+    .vwo1{
         height: 60px;
         border: 1px solid purple;
         background-color: purple;
@@ -73,7 +73,7 @@
     }
 
 
-    #vmbo-basis{
+    .vmbo-basis{
         position:absolute;
         left: 80px;
         bottom: 0;
@@ -81,7 +81,7 @@
         height:400px;
 
     }
-    #vmbo-kader{
+    .vmbo-kader{
         position:absolute;
         left:160px;
         bottom: 0px;
@@ -89,7 +89,7 @@
         height:400px;
     }
 
-    #vmbo-theory{
+    .vmbo-theory{
         position: absolute;
         left: 240px;
         bottom: 0px;
@@ -98,7 +98,7 @@
 
     }
 
-    #havo-6{
+    .havo-6{
         position: absolute;
         left: 320px;
         bottom: -20px;
@@ -107,7 +107,7 @@
 
     }
 
-    #havo{
+    .havo{
         position: absolute;
         left: 400px;
         bottom: 40px;
@@ -115,7 +115,7 @@
         height: 400px;
     }
 
-    #atheneum{
+    .atheneum{
         position: absolute;
         left: 480px;
         bottom: 100px;
@@ -123,7 +123,7 @@
         height: 400px;
     }
 
-    #vwo{
+    .vwo{
         position: absolute;
         left: 560px;
         bottom: 120px;
@@ -247,59 +247,59 @@
 <body>
 <!--je kan nooit genoeg divs hebben-->
 
-<div id="vmbo-basis">
-    <div id="vmbo-title"><p>vmbo<br>basis</p></div>
-    <div id="vmbo"><p>4e jaar</p></div>
-    <div id="vmbo"><p>3e jaar</p></div>
-    <div id="vmbo"><p>2e jaar</p></div>
+<div class="vmbo-basis">
+    <div class="vmbo-title"><p>vmbo<br>basis</p></div>
+    <div class="vmbo"><p>4e jaar</p></div>
+    <div class="vmbo"><p>3e jaar</p></div>
+    <div class="vmbo"><p>2e jaar</p></div>
 </div>
 
-<div id="vmbo-kader">
-    <div id="vmbo-title"><p>vmbo<br>kader</p></div>
-    <div id="vmbo1"><p>4e jaar</p></div>
-    <div id="vmbo1"><p>3e jaar</p></div>
-    <div id="vmbo1"><p>2e jaar</p></div>
+<div class="vmbo-kader">
+    <div class="vmbo-title"><p>vmbo<br>kader</p></div>
+    <div class="vmbo1"><p>4e jaar</p></div>
+    <div class="vmbo1"><p>3e jaar</p></div>
+    <div class="vmbo1"><p>2e jaar</p></div>
 </div>
 
-<div id="vmbo-theory">
-    <div id="vmbo-title"><p>vmbo<br>theoretisch</p></div>
-    <div id="vmbo2"><p>4e jaar</p></div>
-    <div id="vmbo2"><p>3e jaar</p></div>
-    <div id="vmbo2"><p>2e jaar</p></div>
+<div class="vmbo-theory">
+    <div class="vmbo-title"><p>vmbo<br>theoretisch</p></div>
+    <div class="vmbo2"><p>4e jaar</p></div>
+    <div class="vmbo2"><p>3e jaar</p></div>
+    <div class="vmbo2"><p>2e jaar</p></div>
 </div>
 
-<div id="havo-6">
-    <div id="havo-title"><p>havo-6<br></p></div>
-    <div id="havo1"><p>4e jaar</p></div>
-    <div id="havo1"><p>3e jaar</p></div>
-    <div id="havo1"><p>2e jaar</p></div>
+<div class="havo-6">
+    <div class="havo-title"><p>havo-6<br></p></div>
+    <div class="havo1"><p>4e jaar</p></div>
+    <div class="havo1"><p>3e jaar</p></div>
+    <div class="havo1"><p>2e jaar</p></div>
 </div>
 
 <!--waarom class gebruiken als je niet normaal veel id's kan maken-->
-<div id="havo">
-    <div id="havo-title"><p>havo<br></p></div>
-    <div id="havo2"><p>5e jaar</p></div>
-    <div id="havo2"><p>4e jaar</p></div>
-    <div id="havo2"><p>3e jaar</p></div>
-    <div id="havo2"><p>2e jaar</p></div>
+<div class="havo">
+    <div class="havo-title"><p>havo<br></p></div>
+    <div class="havo2"><p>5e jaar</p></div>
+    <div class="havo2"><p>4e jaar</p></div>
+    <div class="havo2"><p>3e jaar</p></div>
+    <div class="havo2"><p>2e jaar</p></div>
 </div>
 
-<div id="atheneum">
-    <div id="antheneum-title"><p>atheneum<br></p></div>
-    <div id="atheneum1"><p>6e jaar</p></div>
-    <div id="atheneum1"><p>5e jaar</p></div>
-    <div id="atheneum1"><p>4e jaar</p></div>
-    <div id="atheneum1"><p>3e jaar</p></div>
-    <div id="atheneum1"><p>2e jaar</p></div>
+<div class="atheneum">
+    <div class="antheneum-title"><p>atheneum<br></p></div>
+    <div class="atheneum1"><p>6e jaar</p></div>
+    <div class="atheneum1"><p>5e jaar</p></div>
+    <div class="atheneum1"><p>4e jaar</p></div>
+    <div class="atheneum1"><p>3e jaar</p></div>
+    <div class="atheneum1"><p>2e jaar</p></div>
 </div>
 
-<div id="vwo">
-    <div id="vwo-title"><p>tweetalig<br>vwo</p></div>
-    <div id="vwo1"><p>6e jaar</p></div>
-    <div id="vwo1"><p>5e jaar</p></div>
-    <div id="vwo1"><p>4e jaar</p></div>
-    <div id="vwo1"><p>3e jaar</p></div>
-    <div id="vwo1"><p>2e jaar</p></div>
+<div class="vwo">
+    <div class="vwo-title"><p>tweetalig<br>vwo</p></div>
+    <div class="vwo1"><p>6e jaar</p></div>
+    <div class="vwo1"><p>5e jaar</p></div>
+    <div class="vwo1"><p>4e jaar</p></div>
+    <div class="vwo1"><p>3e jaar</p></div>
+    <div class="vwo1"><p>2e jaar</p></div>
 </div>
 
 <!--nog steeds niet genoeg divs......help-->
